@@ -85,8 +85,8 @@ function App() {
         }
 
         {isListening
-          ? <h1 className="font-sans font-semibold text-2xl animate-pulse duration-700">Listening...</h1>
-          : <h1 className="font-sans font-semibold text-2xl">Talk to ChatGPT with your voice.</h1>
+          ? <h1 className="font-sans font-semibold text-2xl animate-pulse duration-700">Ouvindo...</h1>
+          : <h1 className="font-sans font-semibold text-2xl">Fale com ChatGPT com sua voz.</h1>
         }
 
         <button
