@@ -85,7 +85,7 @@ function App() {
         }
 
         {isListening
-          ? <h1 className="font-sans font-semibold text-2xl animate-pulse duration-700">Ouvindo...</h1>
+          ? <h1 className="font-sans font-semibold text-2xl animate-pulse duration-700">Verificando...</h1>
           : <h1 className="font-sans font-semibold text-2xl">Fale com ChatGPT com sua voz.</h1>
         }
 
@@ -94,8 +94,8 @@ function App() {
           onClick={toggleListen}
         >
           {isListening
-            ? < Stop weight="fill" size={50} className="text-purple-600" />
-            : <Microphone weight="fill" size={50} className="text-purple-600" />
+            ? < Stop weight="fill" size={60} className="text-purple-600" />
+            : <Microphone weight="fill" size={60} className="text-purple-600" />
           }
         </button>
 
