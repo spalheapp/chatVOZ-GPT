@@ -94,8 +94,8 @@ function App() {
           onClick={toggleListen}
         >
           {isListening
-            ? < Stop weight="fill" size={24} className="text-purple-600" />
-            : <Microphone weight="fill" size={24} className="text-purple-600" />
+            ? < Stop weight="fill" size={50} className="text-purple-600" />
+            : <Microphone weight="fill" size={50} className="text-purple-600" />
           }
         </button>
 
